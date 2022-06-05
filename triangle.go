@@ -12,7 +12,7 @@ func (triangle Triangle) area() float32{
 }
 
 func (triangle *Triangle) updateBase(newBase float32){
-  triangle.base = newBase
+	triangle.base = newBase
 }
 
 func main() {
